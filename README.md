@@ -22,9 +22,7 @@ Task Manager is a web application built with Java Spring that allows users to cr
 
 To run the Task Manager application locally, follow these steps:
 
-1. Clone the repository:
-
-git clone https://github.com/your-username/task-manager.git
+1. Clone the repository: git clone https://github.com/your-username/task-manager.git
 
 2. Import the project into your preferred Java IDE.
 
@@ -32,9 +30,7 @@ git clone https://github.com/your-username/task-manager.git
    - Open the `src/main/resources/application.properties` file.
    - Update the `spring.datasource.url`, `spring.datasource.username`, and `spring.datasource.password` properties with your MySQL database connection details.
 
-4. Run the application from your IDE or use the following command:
-
-./mvnw spring-boot:run
+4. Run the application from your IDE or use the following command: ./mvnw spring-boot:run
 
 5. Open your web browser and visit `http://localhost:8080` to access the Task Manager application.
 
