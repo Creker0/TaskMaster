@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Tasks</title>
+</head>
+<body>
+<h1>Tasks</h1>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Здесь будут отображаться данные из модели -->
+    <!-- Используем Thymeleaf для итерации по списку задач и отображения их данных -->
+    <tr th:each="task : ${tasks}">
+        <td th:text="${task.id}"></td>
+        <td th:text="${task.name}"></td>
+        <td th:text="${task.description}"></td>
+    </tr>
+    </tbody>
+</table>
+<form action="/tasks" method="post">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="text" name="description" placeholder="Description" required>
+    <button type="submit">Create Task</button>
+</form>
+</body>
+</html>
