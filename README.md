@@ -22,7 +22,7 @@ Task Manager is a web application built with Java Spring that allows users to cr
 
 To run the Task Manager application locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/task-manager.git
+1. Clone the repository: git clone https://github.com/Creker0/TaskMaster.git
 
 2. Import the project into your preferred Java IDE.
 
